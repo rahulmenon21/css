@@ -1,0 +1,177 @@
+/* h1 is a selector */ 
+/* color is a properties */
+/* color: red is a value */
+
+
+/* External Css and 1.Tag Selector */
+
+/* h1{
+    color: lightsalmon;
+}
+p{
+    color: lightcoral;
+} */
+
+
+/*2. Class Selector */
+
+/* .f4{
+    color: cadetblue;
+}
+.pg{
+    color: lightcoral;
+} */
+ 
+
+/*3. Id Selector */
+
+/* #f{
+    color: lightcoral;
+}
+#s{
+    color: lightgreen;
+}
+#t{
+    color: lightseagreen;
+}
+#p1{
+    color: mediumpurple;
+}
+#p2{
+    color: mediumorchid;
+}
+#p3{
+    color: mediumseagreen;
+} */
+
+
+/* 4. Group Selector */
+
+/* h1,p,b{
+    background-color: lightgrey;
+    border: 2px solid black;
+}
+
+h1{
+    color: red;
+}
+p{
+    color: blue;
+}
+b{
+    color: green;
+} */
+
+
+/* 5. Child Selector */
+
+/* div>p{
+    color: lightcoral;
+} */
+/* section{
+    color: lightskyblue;
+} */
+
+/* 6. Adjacent Sibling Tag: After div tag first paragraph tag will highlight */
+/* div+p{
+    color: red;
+} */
+
+/* 7. General Sibling Tag: After div tag All paragraph tag will highlight */
+/* div~p{
+    color: darkblue;
+} */
+
+
+/* 8. N-th Child Selector */
+
+/* h1:nth-child(odd){
+    color: lightcoral;
+}
+
+h1:nth-child(even){
+    color: lightseagreen;
+}
+
+h1:last-child{
+    color: mediumorchid;
+}
+
+h1:nth-child(6){
+    color: magenta;
+} */
+
+
+/* 9. Attribute Selector */
+
+/* h1[class='a']{
+    color: mediumorchid;
+}
+h1[class='ab']{
+    color: mediumpurple;
+}
+h1[class='abc']{
+    color: mediumseagreen;
+}
+h1[class='abcd']{
+    color: midnightblue;
+}
+h1{
+    color: red;
+} */
+
+/* Start With (^) */
+/* h1[class^='a']{
+    color: lightcoral;
+} */
+
+/* End With ($) */
+/* h1[class$='b']{
+    color: orangered;
+} */
+
+/* Any Character (*) */
+/* h1[class*='b']{
+    color: aqua;
+} */
+
+
+/* 10. Universal Selector */
+
+/* *{
+    color: lightsalmon;
+} */
+
+
+/* Sudo Class: 1. hover */
+
+/* h1{
+    display: inline-block;
+    padding: 70px;
+}
+a:hover{
+    color: red;
+}
+
+div:hover{
+    background-color: aqua;
+} */
+
+
+/* 2. Active Sudo Class */
+
+/* a:active{
+    color: aqua;
+} */
+
+/* 3. Visited  */
+
+/* a:visited{
+    color: lightgreen;
+} */
+
+/* 4. Input Focus Sudo Class  */
+
+/* input:focus{
+    width: 500px;
+} */
